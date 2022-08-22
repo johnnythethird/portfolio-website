@@ -21,6 +21,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(9, 0, 94));
   }
 }

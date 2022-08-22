@@ -1,17 +1,26 @@
 {
+  "homepage": "http://johnnythethird.github.io/portfolio-website",
   "name": "portfolio-app",
+  "proxy": "http://localhost:4000/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
     "next": "12.2.4",
+    "nodemailer": "^6.7.8",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.0.8",
+    "sparkpost": "^2.1.4"
   },
   "devDependencies": {
     "eslint": "8.21.0",
