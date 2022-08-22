@@ -90,8 +90,6 @@ export default function Home() {
             <h1>Technologies/Misc.</h1>
             <ul>
               <li>VSCode</li>
-              <li>Heroku</li>
-              <li>Firebase</li>
               <li>Git/GitHub</li>
               <li>GitHub Pages</li>
               <li>Postman</li>
