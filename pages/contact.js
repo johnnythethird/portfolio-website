@@ -54,38 +54,6 @@ const contact = () => {
         <div className={styles.contactHead}>
           <h1>Send an email to me at johnnythethird@gmail.com</h1>
         </div>
-        <div className={styles.form}>
-          <form>
-            <div className={styles.formContainer}>
-              <label htmlFor="email">Name</label>
-              <input 
-                onChange={(e) => setName(e.target.value)} 
-                type="text"
-              ></input>
-            </div>
-            <div className={styles.formContainer}>
-              <label htmlFor="subject">Email:</label>
-              <input
-                id="subject" 
-                onChange={(e) => setEmail(e.target.value)} 
-                type="email"
-              ></input>
-            </div>
-            <div className={styles.formContainer}>
-              <label htmlFor="message">Message:</label>
-              <textarea
-                id="message" 
-                onChange={(e) => setMessage(e.target.value)} 
-              ></textarea>
-            </div>
-            <div className={styles.formContainer}>
-              <label></label>
-              <button disabled={loading} type="submit" onClick={(e) => {handleSubmit(e)}}>
-                {loading ? 'Sending...' : 'Submit'}
-              </button>
-            </div>
-          </form>
-        </div>
       </div>
     </div>
   )
