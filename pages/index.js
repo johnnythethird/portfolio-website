@@ -32,7 +32,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="https://drive.google.com/file/d/1jRGrmaQXMBGOrNeeZ---N4YDIZMg418D/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/1M21_OBbeAkHZ-MCZsSw1j-gbToJ1u867/view?usp=sharing">
             <a target="_blank" className={styles.card} rel="noreferrer">
               <h2>Resume</h2>
               <p>
@@ -90,8 +90,6 @@ export default function Home() {
             <h1>Technologies/Misc.</h1>
             <ul>
               <li>VSCode</li>
-              <li>Heroku</li>
-              <li>Firebase</li>
               <li>Git/GitHub</li>
               <li>GitHub Pages</li>
               <li>Postman</li>
