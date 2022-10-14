@@ -66,7 +66,6 @@ export default function Home() {
               <li>Javascript</li>
               <li>Python</li>
               <li>Java</li>
-              <li>JavaFX</li>
               <li>C</li>
               <li>C++</li>
               <li>C#</li>
