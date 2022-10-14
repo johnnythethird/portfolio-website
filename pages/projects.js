@@ -8,6 +8,19 @@ const projects = () => {
   return (
     <div className={styles.projects}>
       <div className={styles.projectsBody}>
+        <h1>COMPANY HOTEL MANAGEMENT SYSTEM</h1>
+        <Link href='https://github.com/johnnythethird/CompanyHotelManagementSystem'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>GitHub Code</a></Link>
+        <Link href='https://www.youtube.com/watch?v=eL6Me0SsE44&ab_channel=JohnnyGatlin'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>Video Demo</a></Link>
+        <h3>
+          This application is a simulation of a hotel management system that uses MySQL as a back-end to store data on Guests, Rooms, and Reservations.
+        </h3>
+        <h4>
+          Technologies used: C# for Frontend and MySQL for backend
+        </h4>
+      </div>
+
+
+      <div className={styles.projectsBody}>
         <h1>WORKOUT TRACKER</h1>
         <Link href='https://johnnythethird.github.io/Workout-Tracker/'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>Website</a></Link>
         <Link href='https://github.com/johnnythethird/Workout-Tracker'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>GitHub Code</a></Link>
@@ -22,30 +35,21 @@ const projects = () => {
         <h4>
           Technologies used: MERN Stack (MongoDB, Express.js, React.js, Node.js), Google Authentication, Github Pages
         </h4>
-        <div className={styles.projectsImages}>
-          <Image src={workoutPhoto} alt="Workout Buddy"/>
-        </div>
       </div>
       
 
       <div className={styles.projectsBody}>
-        <h1>E-BUY ECOMMERCE WEBSITE</h1>
-        <Link href='https://johnnythethird.github.io/E-Buy-Website/'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>Website</a></Link>
-        <Link href='https://github.com/johnnythethird/E-Buy-Website'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>GitHub Code</a></Link>
-        <Link href='https://www.youtube.com/watch?v=HHichU8-4w8&ab_channel=JohnnyGatlin'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>Video Demo</a></Link>
+        <h1>WEATHER CHECKER APP</h1>
+        <Link href='https://github.com/johnnythethird/Weather-Checker-Application'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>GitHub Code</a></Link>
+        <Link href='https://www.youtube.com/watch?v=ePl_rLiWzfM'><a target="_blank" rel="noreferrer" className={styles.headerBtn}>Video Demo</a></Link>
         <h3>
-          This application is an e-commerce website that will allow users to sign/log in and get items the user wishes to buy.
-          They can also use Paypal to buy whatever they want.
-        </h3>
-        <h3>
-          If you encounter any problems with the website, download the github code and run the build from there or watch the video demo.
+          This application allows users to input a city and will be given results of the temperature in Celcius and Fahrenheit. Utilizes OpenWeather API to get realtime temperature.
         </h3>
         <h4>
-          Technologies used: MERN Stack (MongoDB, Express.js, React.js, Node.js), Github Pages, Paypal REST API
+          Technologies used: C# and OpenWeatherAPI
+
+
         </h4>
-        <div className={styles.projectsImages}>
-          <Image src={ebuyPhoto} alt="E-Buy"/>
-        </div>
       </div>
     </div>
   )
